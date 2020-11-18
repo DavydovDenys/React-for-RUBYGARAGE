@@ -13,9 +13,8 @@ function App() {
       <div className="App">
         <h1>TODO</h1>
         <Route path='/' component={Projects}/>
-        <Route path='/projects' component={Project}/>
-        {/*<Route path='/projects/:id' component={Projects}/>*/}
-        {/*<Projects/>*/}
+        {/*<Route path='/projects' component={Project}/>*/}
+
       </div>
     </BrowserRouter>
   );
